@@ -8,5 +8,5 @@ module.exports = {
     ],
     lint: []
   },
-  npmClient: 'npm'
+  npmClient: 'pnpm'
 };

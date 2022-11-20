@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint ./ --ext .js,.jsx,.ts,.tsx",
     "ci:by-pnpm": "pnpm -r build && pnpm -r test && pnpm run lint",
-    "ci": "lage build test lint --no-cache --profile ./playground/test.json --verbose"
+    "ci": "lage build test lint --profile ./playground/test.json --verbose"
   },
   "keywords": [],
   "author": "",
