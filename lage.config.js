@@ -6,7 +6,12 @@ module.exports = {
     test: [
       'build'
     ],
-    lint: []
+    lint: {
+      type: 'worker',
+      options: {
+        worker: 'scripts/eslint-worker.js',
+      },
+    },
   },
   npmClient: 'pnpm'
 };
