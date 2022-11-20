@@ -12,10 +12,12 @@
       "jest",
       "node"
     ],
+    "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "jsx": "react"
   },
   "include": [
     "src/**/*"

@@ -49,13 +49,13 @@ $ npm run start:prod
 
 ```bash
 # unit tests
-$ npm run test
+$ npm run __tests__
 
 # e2e tests
-$ npm run test:e2e
+$ npm run __tests__:e2e
 
-# test coverage
-$ npm run test:cov
+# __tests__ coverage
+$ npm run __tests__:cov
 ```
 
 ## Support

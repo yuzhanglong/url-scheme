@@ -2,9 +2,11 @@
   "name": "url-scheme",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./ --ext .js,.jsx,.ts,.tsx",
+    "ci:by-pnpm": "pnpm -r build && pnpm -r test && pnpm run lint",
+    "ci": "lage build test --no-cache --profile ./playground/test.json --verbose"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +19,13 @@
     "@types/react-dom": "18.0.9",
     "eslint": "^8.28.0",
     "jest": "28.1.3",
+    "lage": "1.9.5",
+    "npm-run-all": "^4.1.5",
+    "ts-jest": "28.0.8",
     "ts-node": "^10.0.0",
     "typescript": "4.9.3"
+  },
+  "dependencies": {
+    "rimraf": "^3.0.2"
   }
 }

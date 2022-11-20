@@ -6,3 +6,5 @@ node_modules
 esm
 lib
 dist
+
+playground

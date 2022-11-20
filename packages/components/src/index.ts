@@ -1,1 +1,1 @@
-console.log('The Project is @attachments/components');
+console.log('hello world!');

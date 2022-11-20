@@ -8,6 +8,7 @@
     "declaration": true,
     "moduleResolution": "Node",
     "resolveJsonModule": true,
+    "esModuleInterop": true,
     "types": [
       "jest",
       "node"
@@ -15,7 +16,8 @@
     "allowJs": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*"
